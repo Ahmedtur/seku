@@ -1,0 +1,32 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 115%;
+}
+
+header {
+    background-color: darkgray;
+}
+
+nav {
+    background-color: rgb(43, 189, 226);
+}
+
+main {
+    background-color: gold;
+    font-size: 120%;
+}
+
+footer {
+    background-color: darkgray;
+}
+
+li {
+    display: inline-block;
+    width: 10%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
