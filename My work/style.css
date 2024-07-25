@@ -8,7 +8,7 @@ header {
 }
 
 nav {
-    background-color: rgb(43, 189, 226);
+    /*background-color: rgb(43, 189, 226);*/
 }
 
 main {
@@ -21,12 +21,34 @@ footer {
 }
 
 li {
-    display: inline-block;
-    width: 10%;
+    /*display: inline-block;
+    width: auto;
+    */
 }
 
 h1 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: blue;
+}
+
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+li {
+    display: inline-block;
+    width: 80%;
+}
+
+nav>img {
+    width: 10%;
+    position: relative;
+    top: 20px;
+}
+
+.wrapper {
+    display: grid;
 }
